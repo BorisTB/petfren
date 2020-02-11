@@ -24,7 +24,7 @@
     "@types/react-native": "~0.60.23",
     "babel-preset-expo": "~8.0.0",
     "expo-yarn-workspaces": "^1.2.1",
-    "typescript": "~3.6.3"
+    "typescript": "~3.7.5"
   },
   "private": true
 }
