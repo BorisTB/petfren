@@ -1,0 +1,15 @@
+{
+  "name": "petfren",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "postinstall": "yarn bootstrap",
+    "start": "lerna run start",
+    "start:client": "yarn workspace petfren-client start"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
